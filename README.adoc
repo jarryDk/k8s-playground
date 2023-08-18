@@ -1,0 +1,13 @@
+= k8s playground
+
+The target is to do a vanilla kubernetes installation
+
+
+== Links
+
+- https://kubernetes.io/docs/setup/[Kubernetes Documentation / Getting started]
+- https://kubernetes.io/docs/tasks/tools/[Kubernetes Documentation / Tasks / Install Tools]
+- https://kubernetes.io/docs/setup/production-environment/tools/kubespray/[Kubernetes Documentation /Getting started / Production environment / Installing Kubernetes with deployment tools / Installing Kubernetes with Kubespray]
+- https://kubernetes.io/releases/download/[Release History / Download Kubernetes]
+
+- https://www.downloadkubernetes.com/[Download Kubernetes]
