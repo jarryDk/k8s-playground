@@ -2,6 +2,9 @@
 
 The target is to do a vanilla kubernetes installation
 
+- https://kubespray.io/[kubespray.io]
+- https://github.com/kubernetes-sigs/kubespray[kubespray - Deploy a Production Ready Kubernetes Cluster]
+- https://kubespray.io/#/docs/getting-started[kubespray.io / Getting started]
 
 == Links
 
