@@ -2,18 +2,30 @@
 
 The target is to do a vanilla kubernetes installation
 
-- https://kubespray.io/[kubespray.io]
-- https://github.com/kubernetes-sigs/kubespray[kubespray - Deploy a Production Ready Kubernetes Cluster]
-- https://kubespray.io/#/docs/getting-started[kubespray.io / Getting started]
+
 
 == Tools
 
 - https://www.talos.dev/[Talos Linux] - Talos Linux is Linux designed for Kubernetes - secure, immutable, and minimal.
+    * https://www.talos.dev/v1.5/talos-guides/install/virtualized-platforms/vagrant-libvirt/[Documentation / Talos Linux Guides / Installation / Virtualized Platforms / Vagrant & Libvirt]
 - https://argoproj.github.io/cd/[Argo CD] - Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
     * https://argo-cd.readthedocs.io/en/stable/
 - https://goharbor.io/[Harbor] - Harbor is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted. Harbor, a CNCF Graduated project, delivers compliance, performance, and interoperability to help you consistently and securely manage artifacts across cloud native compute platforms like Kubernetes and Docker.
 - https://kustomize.io/[Kustomize] - Kustomize introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications.
 - https://cilium.io/[cilium] - Cilium is an open source, cloud native solution for providing, securing, and observing network connectivity between workloads, fueled by the revolutionary Kernel technology eBPF
+- https://www.rancher.com/[Rancher] - Enterprise Kubernetes Management
+
+- https://kubespray.io/[kubespray.io]
+    * https://github.com/kubernetes-sigs/kubespray[kubespray - Deploy a Production Ready Kubernetes Cluster]
+    * https://kubespray.io/#/docs/getting-started[kubespray.io / Getting started]
+
+=== Cilium
+
+.Start minekube
+[source,bash]
+----
+minikube start --network-plugin=cni --cni=false --driver=kvm2 --container-runtime=containerd
+----
 
 == Links
 

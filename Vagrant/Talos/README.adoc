@@ -1,0 +1,7 @@
+= Talos
+
+----
+vagrant up --provider=libvirt
+----
+
+https://www.talos.dev/v1.5/talos-guides/install/virtualized-platforms/vagrant-libvirt/
